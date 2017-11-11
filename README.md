@@ -1,7 +1,7 @@
 # Code Challenge #1 (Github API Usage)
 
 ## Code Exercise in Nodejs and any JS Framework (Express, Hapijs or other) ##
-Please complete as much of this as code-challenge as possible within a 24 hour period. This challenge is not overally complex but is meant to test your knowledge of Git/Github, review your methods and knowledge for developing websites and utilizing an open API.
+Please complete as much of this as code-challenge as possible within a 24 hour period. This challenge is not complex but it is meant to test your knowledge of Git/Github, review your methods and knowledge for developing websites and utilizing an open API.
 
 You will have 24 hours from the time of your initially fork from the joecih/code-challenges repository. Once, you fork the code-base your time will start and you will be required to complete the following instructions and follow the general requirements for this code-challenge. If you have not started the code-challenge in 1 days time from the time you are sent this code-challenge via email. You forfeit the challenge.
 
@@ -13,13 +13,13 @@ You will have 24 hours from the time of your initially fork from the joecih/code
 4. Follow the below Design requirements and provided mock-ups in an effort to create a website within a 24 hour period.
 5. When you have completed the below design requirements. Push your code to your fork, with clear commit messages to demonstrate your knowledge of Git/Github practices. 
 6. Submit a PR (Pull-Request) to the owner of joecih/code-challenges repository for Review and acceptance.
-*** Even if you have *Not Completed!* the challenge, still submit a PR on what you do have! ***
+** Even if you have *Not Completed!* the challenge, still submit a PR on what you do have! **
 
 
 ### Github API Challenge - Functional Requirements ####
  - Ability to run the application locally on any computer.
  - Connect to the [GitHub API](https://developer.github.com/v3/users/) and show you can access this Open API to retrieve user information.
- - Follow the two mock-ups given for layout and design. You can add your own color scheme but the format and layout must follow the mock-up. Font-sizing is at your discretion but it must be legiable and visually appealling to the user.
+ - Follow the two mock-ups given for layout and design. You can add your own color scheme but the format and layout must follow the mock-up. Font-sizing is at your discretion but it must be legible and visually appealling to the user.
  - The results need to return back on the same page (you can limit it to the first 10-20 search results.) Pagination is not required but a bonus if you use a spinner icon to indicate API calls when waiting on results.
  - You can use whatever nodejs packages you would like to use that help with layout or functionality. Demonstrate what you know. Credit for finding simple solutions to achieve common web-design tasks. CSS - Bootstrap and other design frameworks are ok. No need to get too creative.
  - *BONUS* - Adding any tooling/packages for handling Error or Success messages is a nice to have.
