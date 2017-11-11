@@ -13,6 +13,7 @@ You will have 24 hours from the time of your initially fork from the joecih/code
 4. Follow the below Design requirements and provided mock-ups in an effort to create a website within a 24 hour period.
 5. When you have completed the below design requirements. Push your code to your fork, with clear commit messages to demonstrate your knowledge of Git/Github practices. 
 6. Submit a PR (Pull-Request) to the owner of joecih/code-challenges repository for Review and acceptance.
+*** Even if you have *Not Completed!* the challenge, still submit a PR on what you do have! ***
 
 
 ### Github API Challenge - Functional Requirements ####
