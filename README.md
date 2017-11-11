@@ -24,7 +24,8 @@ You will have 24 hours from the time of your initially fork from the joecih/code
  - Have fun and don't stress about the timeline. Challenges are meant to capture how much you know but also how you get to the final solution. Of course, in having fun the more sparkles you add in functionality and common web features the more you will stand out from other candidates. Impress me with something I have not asked for but stays within the design guidelines given and it will increase your chances.
 
 ### Design - Mock-ups ###
-- link: 
+- ![mock1](https://github.com/joecih/code-challenges/blob/master/CodeChallenge_Mock1.jpg)
+- ![mock2](https://github.com/joecih/code-challenges/blob/master/CodeChallenge_Mock1a.jpg)
 
 ### Code-Challenge Owner Responsibility ###
 Once you're done with the challenge, email me directly but if you do a proper Pull-Request it should also send me a message.
@@ -34,4 +35,5 @@ Once you're done with the challenge, email me directly but if you do a proper Pu
 
 Good Luck! Have Fun! :)
 
-[logo]: https://media1.tenor.com/images/e7f79995b28895c08b44106ce526f9d4/tenor.gif?itemid=3934383
+[logo]: https://media1.tenor.com/images/e7f79995b28895c08b44106ce526f9d4/tenor.gif?itemid=3934383 "media"
+
