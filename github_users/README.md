@@ -33,7 +33,7 @@ You will have 24 hours from the time of your initially fork from the joecih/code
 Once you're done with the challenge, email me directly but if you do a proper Pull-Request it should also send me a message.
 1. I will .zip your fork for archive and then remove any information related to your challenge so make sure you have a clone if you would like to retain your work. I will do this within 1-days time, and your email submittal to me that you have completed as much of the challenge as possible.
 2. I will then review your code and provide your results within 2-days time.
-3. If you have any questions or issues please contact the owner of this code-challenge at the email sent to you.
+3. **If you have any questions or issues please contact the owner of this code-challenge at the email sent to you.**
 
 Good Luck! Have Fun! :)
 
