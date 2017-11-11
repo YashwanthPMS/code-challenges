@@ -19,13 +19,14 @@ You will have 24 hours from the time of your initially fork from the joecih/code
  - Ability to run the application locally on any computer.
  - Connect to the [GitHub API](https://developer.github.com/v3/users/) and show you can access this Open API to retrieve user information.
  - Follow the two mock-ups given for layout and design. You can add your own color scheme but the format and layout must follow the mock-up. Font-sizing is at your discretion but it must be legiable and visually appealling to the user.
- - The results need to return back on the same page (you can limit it to the first 10-20 search results.) Pagination is not required but a bonus.
- - You can use whatever nodejs packages you would like to use that help with layout or functionality. Demonstrate what you know. Credit for finding simple solutions to achieve common web-design tasks. CSS - Bootstrap and other design frameworks are ok. No need to get too creative. 
+ - The results need to return back on the same page (you can limit it to the first 10-20 search results.) Pagination is not required but a bonus if you use a spinner icon to indicate API calls when waiting on results.
+ - You can use whatever nodejs packages you would like to use that help with layout or functionality. Demonstrate what you know. Credit for finding simple solutions to achieve common web-design tasks. CSS - Bootstrap and other design frameworks are ok. No need to get too creative.
+ - *BONUS* - Adding any tooling/packages for handling Error or Success messages is a nice to have.
  - Have fun and don't stress about the timeline. Challenges are meant to capture how much you know but also how you get to the final solution. Of course, in having fun the more sparkles you add in functionality and common web features the more you will stand out from other candidates. Impress me with something I have not asked for but stays within the design guidelines given and it will increase your chances.
 
 ### Design - Mock-ups ###
-- ![mock1](https://github.com/joecih/code-challenges/blob/master/CodeChallenge_Mock1.jpg)
-- ![mock2](https://github.com/joecih/code-challenges/blob/master/CodeChallenge_Mock1a.jpg)
+![mock1](https://github.com/joecih/code-challenges/blob/master/CodeChallenge_Mock1.jpg)
+![mock2](https://github.com/joecih/code-challenges/blob/master/CodeChallenge_Mock1b.jpg)
 
 ### Code-Challenge Owner Responsibility ###
 Once you're done with the challenge, email me directly but if you do a proper Pull-Request it should also send me a message.
