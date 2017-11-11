@@ -3,7 +3,7 @@
 ## Code Exercise in Nodejs and any JS Framework (Express, Hapijs or other) ##
 Please complete as much of this as code-challenge as possible within a 24 hour period. This challenge is not complex but it is meant to test your knowledge of Git/Github, review your methods and knowledge for developing websites and utilizing an open API.
 
-You will have 24 hours from the time of your initially fork from the joecih/code-challenges repository. Once, you fork the code-base your time will start and you will be required to complete the following instructions and follow the general requirements for this code-challenge. If you have not started the code-challenge in 1 days time from the time you are sent this code-challenge via email. You forfeit the challenge.
+You will have 24 hours from the time of your initial fork from the joecih/code-challenges repository. Once, you fork the code-base your time will start and you will be required to complete the following instructions and follow the general requirements for this code-challenge. If you have not started the code-challenge in 1 days time from the time you are sent this code-challenge via email. You forfeit the challenge.
 
 
 ### Getting Started & Delivery Instructions ###
