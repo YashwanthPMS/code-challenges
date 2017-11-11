@@ -3,12 +3,12 @@
 ## Code Exercise in Nodejs and any JS Framework (Express, Hapijs or other) ##
 Please complete as much of this as code-challenge as possible within a 24 hour period. This challenge is not overally complex but is meant to test your knowledge of Git/Github, review your methods and knowledge for developing websites and utilizing an open API.
 
-You will have 24 from the time of your initially fork from the joecih/code-challenges repository. Once, you fork the code-base your time will start and you will be required to complete the following instructions and follow the general requirements for this code-challenge. If you have not started the code-challenge in 1 days time from the time you are sent this code-challenge via email. You forfeit the challenge.
+You will have 24 hours from the time of your initially fork from the joecih/code-challenges repository. Once, you fork the code-base your time will start and you will be required to complete the following instructions and follow the general requirements for this code-challenge. If you have not started the code-challenge in 1 days time from the time you are sent this code-challenge via email. You forfeit the challenge.
 
 
 ### Start & Delivery Instructions ###
 1. Fork your own repository from the joecih/code-challenge master repository here on Github.
-2. You can use whatever Nodejs framework you would like to start this application. eg(Express.. we use Hapijs here at Liaison, so bonus points if you can use it over Express)
+2. You can use whatever Nodejs framework you would like to start this application with. eg(Express.. we use Hapijs here at Liaison, so bonus points if you can use it over Express)
 3. You can use any templating engine or MVW framework like Angularjs, Reactjs or (bonus) Vuejs. We only require that you demonstrate that you can use these frameworks but if you meet the design specs we will evaluate your tooling and process.
 4. Follow the below Design requirements and provided mock-ups in an effort to create a website within a 24 hour period.
 5. When you have completed the below design requirements. Push your code to your fork, with clear commit messages to demonstrate your knowledge of Git/Github practices. 
@@ -30,6 +30,7 @@ You will have 24 from the time of your initially fork from the joecih/code-chall
 Once you're done with the challenge, email me directly but if you do a proper Pull-Request it should also send me a message.
 1. I will .zip your fork for archive and then remove any information related to your challenge so make sure you have a clone if you would like to retain your work. I will do this within 1-days time, and your email submittal to me that you have completed as much of the challenge as possible.
 2. I will then review your code and provide your results within 2-days time.
+3. If you have any questions or issues please contact the owner of this code-challenge at the email sent to you.
 
 Good Luck! Have Fun! :)
 
