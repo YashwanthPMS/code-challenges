@@ -1,0 +1,17 @@
+{
+  "name": "codechallenge",
+  "version": "1.0.0",
+  "description": "Code Challenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yashwanth",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+
+  }
+}
