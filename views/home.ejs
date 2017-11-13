@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Liason Code Challenge</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 mt-3 sidebar">
+                <div class="jumbotron text-center profile-bar">
+
+                    <p><b>Profiles List</b></p>
+                </div>
+                <div class="container search-bar">
+                    <div class="row pt-4 pull-centre">
+                        <input id="filter" class="form-control ml-4" style="width:60%;" type="text" placeholder="Search" />
+                        <i id="filtersubmit" class="fa fa-search"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-8 mt-3">
+                <div class="loader  text-center"></div>
+                <div class="row content-data" style="display:none">
+                    <%if (posts.length > 0) { %>
+                        <% posts.forEach((post) => { %>
+                            <div class="col-sm-6 mb-2 profile">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <img class="card-img-top" src="/static/images/<%= post.id %>.jpg" style="width: 153%;height: 74%px;" alt="Card image">
+                                    </div>
+                                    <div class="col-sm-8">
+                                        <div class="card-body ml-2">
+                                            <h4 class="card-title mt-0">
+                                                <%= post.username %>
+                                            </h4>
+                                            <p>Bio :&nbsp;
+                                                <small><%= post.name %></small>
+                                            </p>
+                                            <p>Location :&nbsp;
+                                                <small> <%= post.address.city %></small>
+                                            </p>
+                                            <p>Email:&nbsp;<small><a href="mailto:<%= post.email %>" style="background-color: rgb(250, 250, 250);"><%= post.email %></a></small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <% }) %>
+                                <% } else{ %>
+                                    <div class="alert alert-warning" role="alert">
+                                            <strong>Service Unavailable</strong>Try again after sometime
+                                          </div>
+                                    <% } %>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $(".content-data").delay(2000).show(0);
+        setTimeout(function () {
+            $(".loader").remove(0);
+        }, 2000);
+    });
+
+</script>

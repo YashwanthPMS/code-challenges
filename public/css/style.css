@@ -1,0 +1,64 @@
+<style>
+    p {
+        margin-bottom: 0.1rem !important;
+    }
+
+    .search-bar {
+        min-height: 100%;
+        background: #818182;
+    }
+
+    .profile-bar {
+        margin-bottom: 0rem !important;
+    }
+
+    .card-body {
+        margin-top: -10% !important;
+    }
+
+    #filtersubmit {
+        position: relative;
+        z-index: 1;
+        left: -25px;
+        top: 10px;
+        color: #7B7B7B;
+        cursor: pointer;
+        width: 0;
+    }
+
+    .loader {
+        border: 16px solid #f3f3f3;
+        border-radius: 50%;
+        border-top: 16px solid #3498db;
+        width: 120px;
+        height: 120px;
+        -webkit-animation: spin 2s linear infinite;
+        animation: spin 2s linear infinite;
+        margin-left: 220px;
+        margin-top: 220px;
+    }
+
+    @-webkit-keyframes spin {
+        0% {
+            -webkit-transform: rotate(0deg);
+        }
+        100% {
+            -webkit-transform: rotate(360deg);
+        }
+    }
+
+    @keyframes spin {
+        0% {
+            transform: rotate(0deg);
+        }
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    .sidebar{
+        margin-left: -10%;
+    }
+    .profile:hover{
+        background: oldlace;
+    }
+</style>
