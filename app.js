@@ -13,5 +13,5 @@ app.use('/static', express.static('public'))
 app.get('/userProfile', api.userData)
 
 app.listen(port,()=>{
-    console.log(`Theeee server is running at ${port}`)
+    console.log(`The server is running at ${port}`)
 })

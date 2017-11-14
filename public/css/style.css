@@ -61,4 +61,7 @@
     .profile:hover{
         background: oldlace;
     }
+    .userName::first-letter {
+            text-transform: uppercase;
+          }
 </style>

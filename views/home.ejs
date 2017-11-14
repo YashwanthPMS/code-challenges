@@ -31,20 +31,20 @@
                             <div class="col-sm-6 mb-2 profile">
                                 <div class="row">
                                     <div class="col-sm-4">
-                                        <img class="card-img-top" src="/static/images/<%= post.id %>.jpg" style="width: 153%;height: 74%px;" alt="Card image">
+                                        <img class="card-img-top" src="<%= post.avatar_url %>" style="width: 153%;height: 74%px;" alt="Card image">
                                     </div>
                                     <div class="col-sm-8">
                                         <div class="card-body ml-2">
-                                            <h4 class="card-title mt-0">
-                                                <%= post.username %>
+                                            <h4 class="card-title mt-0 userName ">
+                                                <%= post.login %>
                                             </h4>
                                             <p>Bio :&nbsp;
-                                                <small><%= post.name %></small>
+                                                <small><%= post.type %></small>
                                             </p>
                                             <p>Location :&nbsp;
-                                                <small> <%= post.address.city %></small>
+                                                <small> United States</small>
                                             </p>
-                                            <p>Email:&nbsp;<small><a href="mailto:<%= post.email %>" style="background-color: rgb(250, 250, 250);"><%= post.email %></a></small></p>
+                                            <p>Email:&nbsp;<small><a href="mailto:<%= post.login %>@gmail.com" style="background-color: rgb(250, 250, 250);"><%=  post.login %>@gmail.com</a></small></p>
                                         </div>
                                     </div>
                                 </div>
