@@ -1,11 +1,12 @@
 
 const axios = require('axios');
-
+var list = [];
 exports.userData=(req,res)=>{
-    axios.get('https://jsonplaceholder.typicode.com/users')
+    axios.get('https://api.github.com/users?access_token=81719dc087dd5195505c7c27abfe68395bb03115')
     .then( response=> {    
         if(response.status==200){
-            res.render('home', { posts: response.data })
+            list = response.data
+            res.render('home', { posts: list })
         }
         else{
             res.render('home', { posts: "" })
